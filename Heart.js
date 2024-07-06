@@ -80,41 +80,41 @@ const xtime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
 
          if(time2 < "23:59:00"){
 
-var Ayushytimewisher = `Good Night 🌌`
+var alexpikutimewisher = `Good Night 🌌`
 
  }
 
  if(time2 < "19:00:00"){
 
-var Ayushytimewisher = `Good Evening 🌃`
+var alexpikutimewisher = `Good Evening 🌃`
 
  }
 
  if(time2 < "18:00:00"){
 
-var Ayushytimewisher = `Good Evening 🌃`
+var alexpikutimewisher = `Good Evening 🌃`
 
  }
 
  if(time2 < "15:00:00"){
 
-var Ayushytimewisher = `Good Afternoon 🌅`
+var alexpikutimewisher = `Good Afternoon 🌅`
 
  }
 
  if(time2 < "11:00:00"){
 
-var Ayushytimewisher = `Good Morning 🌄`
+var alexpikutimewisher = `Good Morning 🌄`
 
  }
 
  if(time2 < "05:00:00"){
 
-var Ayushytimewisher = `Good Morning 🌄`
+var alexpikutimewisher = `Good Morning 🌄`
 
  } 
 
-module.exports = Maria = async (Maria, m, msg, chatUpdate, store) => {
+module.exports = Maria = async (alexpiku, m, msg, chatUpdate, store) => {
 
     try {
 
@@ -220,9 +220,9 @@ module.exports = Maria = async (Maria, m, msg, chatUpdate, store) => {
 
         const groupOwner = m.isGroup ? groupMetadata.owner : ''
 
-        const mentionByTag = type == 'extendedTextMessage' && m.message.extendedTextMessage.contextInfo != null ? m.message.extendedTextMessage.contextInfo.mentionedJid : []
+        const mentionByTag = type == 'extendedTextMessage' && m.message.extendedTextMessage.contextInfo != mention.js ? m.message.extendedTextMessage.contextInfo.mentionedJid : []
 
-        const mentionByReply = type == 'extendedTextMessage' && m.message.extendedTextMessage.contextInfo != null ? m.message.extendedTextMessage.contextInfo.participant || '' : ''
+        const mentionByReply = type == 'extendedTextMessage' && m.message.extendedTextMessage.contextInfo != mention.js ? m.message.extendedTextMessage.contextInfo.participant || '' : ''
 
         const isGroupOwner = m.isGroup ? (groupOwner ? groupOwner : groupAdmins).includes(m.sender) : false
 
