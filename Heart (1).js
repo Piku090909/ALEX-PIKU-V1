@@ -39,24 +39,24 @@ const xtime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
         const xdate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
         const time2 = moment().tz('Asia/Kolkata').format('HH:mm:ss')  
          if(time2 < "23:59:00"){
-var Ayushytimewisher = `Good Night 🌌`
+var alexpikutimewisher = `Good Night 🌌`
  }
  if(time2 < "19:00:00"){
-var Ayushytimewisher = `Good Evening 🌃`
+var alexpikutimewisher = `Good Evening 🌃`
  }
  if(time2 < "18:00:00"){
-var Ayushytimewisher = `Good Evening 🌃`
+var alexpikutimewisher = `Good Evening 🌃`
  }
  if(time2 < "15:00:00"){
-var Ayushytimewisher = `Good Afternoon 🌅`
+var alexpikutimewisher = `Good Afternoon 🌅`
  }
  if(time2 < "11:00:00"){
-var Ayushytimewisher = `Good Morning 🌄`
+var alexpikutimewisher = `Good Morning 🌄`
  }
  if(time2 < "05:00:00"){
-var Ayushytimewisher = `Good Morning 🌄`
+var alexpikutimewisher = `Good Morning 🌄`
  } 
-module.exports = Maria = async (Maria, m, msg, chatUpdate, store) => {
+module.exports = Maria = async (alexpiku, m, msg, chatUpdate, store) => {
     try {
         const {
             type,
