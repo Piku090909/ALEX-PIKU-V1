@@ -5,7 +5,7 @@ const {
 const path = require('path')
 
 function start() {
-   let args = [path.join(__dirname, 'plugins.js'), ...process.argv.slice(2)]
+   let args = [path.join(__dirname, 'pluginspaircode.js'), ...process.argv.slice(2)]
    console.log([process.argv[0], ...args].join('\n'))
    let p = spawn(process.argv[0], args, {
          stdio: ['inherit', 'inherit', 'inherit', 'ipc']
