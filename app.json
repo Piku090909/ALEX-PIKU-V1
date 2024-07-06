@@ -1,0 +1,24 @@
+{
+    "name": "𓆩‎✘À𝖑è𝖝 𝕻ì𝖐ù✘𓆪",
+    "description": "A WhatsApp bot based on Baileysjs with Multi-Device support",
+    "repository": "https://github.com/Piku090909/ALEX-PIKU-V1",
+    "logo": "https://telegra.ph/file/351133422917a8bd7d776.jpg",
+    "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
+    "buildpacks": [
+      {
+        "url": "heroku/nodejs"
+      },
+      {
+        "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+      },
+      {
+        "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+      }
+    ],
+     "formation": {
+          "worker": {
+              "quantity": 1,
+              "size": "eco"
+          }
+     }
+}
